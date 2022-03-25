@@ -4,5 +4,72 @@
         "name": "Travel Laptop Backpack",
         "price": 15,
         "img": "https://m.media-amazon.com/images/I/61Ns-H-YLtL._SX425_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Genshin Impact Backpack",
+        "price": 28,
+        "img": "https://m.media-amazon.com/images/I/717ELLaQlUL._AC_SX425_.jpg"
+    },
+    {
+        "id": 3,
+        "name": "YOREPEK Backpack for Men",
+        "price": 78,
+        "img": "https://m.media-amazon.com/images/I/71Nv2xl+KjL._AC_SX679_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "PUMA unisex child Evercat",
+        "price": 42,
+        "img": "https://m.media-amazon.com/images/I/91BoUxiKuCL._AC_SY606_.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Extra Large 52L Travel Laptop",
+        "price": 43,
+        "img": "https://m.media-amazon.com/images/I/61Ns-H-YLtL._SX425_.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Amazon Basics Backpack",
+        "price": 62,
+        "img": "https://m.media-amazon.com/images/I/91Rp2evD0aL._AC_SX679_.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Amazon Basics Campus Laptop Backpack ",
+        "price": 60,
+        "img": "https://m.media-amazon.com/images/I/A1BmAOrFIBL._AC_SY879_.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Targus Cypress Slim Backpack",
+        "price": 81,
+        "img": "https://m.media-amazon.com/images/I/51AielItiiL._AC_SX679_.jpg"
+    },
+    {
+        "id": 9,
+        "name": "JanSport SuperBreak One Backpack",
+        "price": 67,
+        "img": "https://m.media-amazon.com/images/I/91HkBT96VML._AC_UY500_.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Amazon Basics Classic School Backpack",
+        "price": 40,
+        "img": "https://m.media-amazon.com/images/I/91A3sSo8w4L._AC_SY679_.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Troop London Canvas Padded Backpack",
+        "price": 104,
+        "img": "https://m.media-amazon.com/images/I/81D10S5suEL._AC_SY450_.jpg"
+    },
+    {
+        "id": 12,
+        "name": "J World New York Sundance Rolling Backpack",
+        "price": 99,
+        "img": "https://m.media-amazon.com/images/I/91ALK8Nh1SL._AC_SX425_.jpg"
     }
+
 ]
