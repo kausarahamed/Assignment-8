@@ -34,7 +34,13 @@
   border-radius: 0 0 8px 8px;
   position: absolute;
   bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn-cart:hover {
   background-color: goldenrod;
+}
+.btn-cart .btn-text {
+  margin-right: 10px;
 }
