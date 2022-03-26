@@ -30,3 +30,20 @@
 .show-one {
   text-align: center;
 }
+.btn-one {
+  background-color: aquamarine;
+  padding: 15px;
+  border-radius: 10px;
+}
+.btn-one:hover {
+  background-color: rgb(17, 144, 85);
+}
+.btn-remove {
+  background-color: aquamarine;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 2px;
+}
+.btn-remove:hover {
+  background-color: rgb(17, 144, 85);
+}

@@ -49,8 +49,8 @@ const Shop = () => {
                         <Cart item={item}></Cart>
                     )
                 }
-                <button onClick={choose}>Choose One</button>
-                <button onClick={removeAll}>Remove All</button>
+                <button className='btn-one' onClick={choose}>Choose One</button>
+                <button className='btn-remove' onClick={removeAll}>Remove All</button>
             </div>
         </div>
         </div>

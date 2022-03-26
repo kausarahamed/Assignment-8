@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css'
 
+
 const Header = () => {
     return (
         <nav className='header'>
-           <h1>Bag store</h1>
+           <h1 className='header-name'>Bag Store</h1>
            
        </nav>
     );
