@@ -4,7 +4,7 @@ import React from 'react';
 import './Product.css'
 
 const Product = ({handleAddToClick , product}) => {
-    // const {handleAddToClick , product} = props;
+    
     const {name, img, price} = product;
     
     

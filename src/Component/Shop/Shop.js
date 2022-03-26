@@ -13,14 +13,29 @@ const Shop = () => {
     },[]);
 
     const handleAddToClick = (product) =>{
-        console.log(product);
+        
         const newCart = [...cart, product];
         setcart(newCart);
         
     }
 
+    const [anyOne, setAnyOne] = useState([]);
+    const choose = ()=>{
+        const one = Math.floor(Math.random() * cart.length);
+        setAnyOne(cart[one])
+    }
+    const removeAll =()=>{
+        setcart([])
+    }
+
     return (
-        <div className='shop-container'>
+        <div>
+            <div className='show-one'>
+                <img src={anyOne.img} alt="" />
+                <h4>{anyOne.name}</h4>
+            </div>
+            <div className='shop-container'>
+            
             <div className="products-container">
                 {products.map(product =><Product key = {product.id}
                 product = {product}
@@ -34,9 +49,10 @@ const Shop = () => {
                         <Cart item={item}></Cart>
                     )
                 }
-                <button>Choose One</button>
-                <button>Remove All</button>
+                <button onClick={choose}>Choose One</button>
+                <button onClick={removeAll}>Remove All</button>
             </div>
+        </div>
         </div>
     );
 };
